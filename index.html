@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <script src="index.js"></script>
+
+    <!-- Like And Dislike Toggles Using Java script-->
+        <i onclick="likes()" class="fa fa-thumbs-up" ></i><span id="l"> 0</span> &nbsp;&nbsp;&nbsp;
+        <i onclick="dislikes()" class="fa fa-thumbs-down"></i><span id="d"> 0</span>
+<br>
+<br>
+<!-- Name click Alert-->
+<form>
+    Name:
+    <input type="input" name="YourName">
+    <input type="button" onclick="displayMessage(form.YourName.value);"
+    value="Display Message">
+</form>
+
+<br>
+<br>
+<!-- Double Click-->
+<input type="button" ondblclick="alert('This is an Double Click Function');"
+value="Double Click">
+
+<br>
+<br>
+<!--Name With Image Display-->
+<form id="loginForm">
+
+    Enter UserName: <input type="text" id="username">
+    <button onclick="login()">Submit</button>
+    <img id="userprofile">
+
+</form>
+
+<!--Pass Or Fail Using Htno-->
+<form>
+    Enter Hall Ticket Number : <input type="tetx" id="htno" placeholder="Enter Ht Num"> 
+    <button onclick="results()">Submit</button>
+</form>
+
+
+<!-- Colour Change On click-->
+
+<i class="fa fa-heart" style="font-size:48px;" ondblclick="colorchange()" id="cl"></i>
+
+  <br>     
+<!--password confirmation-->
+
+Enter Password : <input type="password" id="txtpassword" placeholder="Enter your Password"><br>
+
+Confirm Password : <input type="password" id="txtconfirmpassword" placeholder="Confirm your Password">
+
+<input type="button" id="btnSubmit" value="Submit" onclick="return Validate()" />
+
+    </body>
+</html>
